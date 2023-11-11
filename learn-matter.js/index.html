@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physics Web with Matter.js</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="lib/matter.js"></script>
+  </head>
+  <body>
+    <div class="matter" data-html-matter>
+      <div data-object="obj1">
+        <div class="input-group">
+          <label for="n-a-m-e">Name:</label>
+          <input
+            type="text"
+            name="n-a-m-e"
+            id="n-a-m-e"
+            placeholder="username"
+            data-name
+          />
+        </div>
+      </div>
+
+      <div data-object="obj2">
+        <div class="input-group">
+          <label for="e-m-ail">Email:</label>
+          <input
+            type="text"
+            name="e-m-ail"
+            id="e-m-ail"
+            placeholder="example@email.com"
+            data-email
+          />
+        </div>
+      </div>
+
+      <div data-object="obj3">
+        <button data-submit>Submit</button>
+      </div>
+
+      <div data-object="obj4">
+        <div class="product">
+          <div class="image"><img src="assets/image/nasi-lemak.jpg" /></div>
+          <p>Nasi Lemak</p>
+          <button class="toggleButton">Buy</button>
+        </div>
+      </div>
+
+      <div data-object="obj5">
+        <div class="product">
+          <div class="image"><img src="assets/image/air-putih.jpg" /></div>
+          <p>Air Putih</p>
+          <button class="toggleButton">Buy</button>
+        </div>
+      </div>
+
+      <div data-object="obj6">
+        <div class="text-group">
+          <p>Press Outline to Move!</p>
+        </div>
+      </div>
+
+      <div data-object="obj7">
+        <div class="text-group">
+          <p>I'm learning to use Matter.js</p>
+        </div>
+      </div>
+
+      <div data-object="obj8">
+        <div class="text-objeight">
+          <p>The Physics are very Interesting!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
