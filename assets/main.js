@@ -10,15 +10,6 @@ function initForm() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const matterHolder = document.querySelector("[data-html-matter]");
-  if (!matterHolder) {
-    return;
-  }
-  initMatter(matterHolder);
-  initForm();
-});
-
 //========== Button ==========
 const toggleButtons = document.querySelectorAll(".toggleButton");
 

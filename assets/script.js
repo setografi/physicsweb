@@ -154,3 +154,12 @@ function initMatter(matterHolder) {
     window.requestAnimationFrame(mapHTML);
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const matterHolder = document.querySelector("[data-html-matter]");
+  if (!matterHolder) {
+    return;
+  }
+  initMatter(matterHolder);
+  initForm();
+});
